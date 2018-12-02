@@ -1,0 +1,60 @@
+Total time: 36.612 secs
+C:\Users\Aino\Documents\NetBeansProjects\Kavamo>gradlew run --info
+Initialized native services in: C:\Users\Aino\.gradle\native
+Connected to daemon DaemonInfo{pid=14928, address=[e2a0ab56-c482-49b2-9e20-9e8307789894 port:52740, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1543594302509, context=DefaultDaemonContext[uid=0a35ac23-8cdf-4fe8-a493-b1d2a73723c6,javaHome=C:\Program Files\Java\jdk1.8.0_161,daemonRegistryDir=C:\Users\Aino\.gradle\daemon,pid=14928,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=FI,-Duser.language=fi,-Duser.variant]}. Dispatching request Build{id=d7fdbeda-2e10-4aca-854a-b6dedb9c9efa.1, currentDir=C:\Users\Aino\Documents\NetBeansProjects\Kavamo}.
+Received result org.gradle.launcher.daemon.protocol.BuildStarted@16eccb2e from daemon DaemonInfo{pid=14928, address=[e2a0ab56-c482-49b2-9e20-9e8307789894 port:52740, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1543594302509, context=DefaultDaemonContext[uid=0a35ac23-8cdf-4fe8-a493-b1d2a73723c6,javaHome=C:\Program Files\Java\jdk1.8.0_161,daemonRegistryDir=C:\Users\Aino\.gradle\daemon,pid=14928,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=FI,-Duser.language=fi,-Duser.variant]} (build should be starting).
+The client will now receive all logging from the daemon (pid: 14928). The daemon log file: C:\Users\Aino\.gradle\daemon\3.4.1\daemon-14928.out.log
+Starting 21st build in daemon [uptime: 30 mins 3.386 secs, performance: 99%, no major garbage collections]
+Executing build with daemon context: DefaultDaemonContext[uid=0a35ac23-8cdf-4fe8-a493-b1d2a73723c6,javaHome=C:\Program Files\Java\jdk1.8.0_161,daemonRegistryDir=C:\Users\Aino\.gradle\daemon,pid=14928,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=FI,-Duser.language=fi,-Duser.variant]
+Creating new cache for plugin-use-metadata, path C:\Users\Aino\.gradle\caches\3.4.1\plugin-resolution\plugin-use-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@109b6f73
+Creating new cache for client-status, path C:\Users\Aino\.gradle\caches\3.4.1\plugin-resolution\client-status.bin, access org.gradle.cache.internal.DefaultCacheAccess@109b6f73
+Starting Build
+Settings evaluated using settings file 'C:\Users\Aino\Documents\NetBeansProjects\Kavamo\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\Aino\Documents\NetBeansProjects\Kavamo\build.gradle'.
+Included projects: [root project 'Kavamo']
+Evaluating root project 'Kavamo' using build file 'C:\Users\Aino\Documents\NetBeansProjects\Kavamo\build.gradle'.
+Using 4 worker leases.
+All projects evaluated.
+Selected primary task 'run' from project :
+Creating new cache for fileHashes, path C:\Users\Aino\Documents\NetBeansProjects\Kavamo\.gradle\3.4.1\taskHistory\fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@46a7b6af
+Creating new cache for annotation-processors, path C:\Users\Aino\Documents\NetBeansProjects\Kavamo\.gradle\3.4.1\fileContent\annotation-processors.bin, access org.gradle.cache.internal.DefaultCacheAccess@c16913f
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':run']
+Creating new cache for jvmClassSignatures, path C:\Users\Aino\Documents\NetBeansProjects\Kavamo\.gradle\3.4.1\taskHistory\jvmClassSignatures.bin, access org.gradle.cache.internal.DefaultCacheAccess@46a7b6af
+Creating new cache for fileSnapshots, path C:\Users\Aino\Documents\NetBeansProjects\Kavamo\.gradle\3.4.1\taskHistory\fileSnapshots.bin, access org.gradle.cache.internal.DefaultCacheAccess@46a7b6af
+Creating new cache for taskHistory, path C:\Users\Aino\Documents\NetBeansProjects\Kavamo\.gradle\3.4.1\taskHistory\taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@46a7b6af
+:compileJava (Thread[Daemon worker Thread 6,5,main]) started.
+:compileJava
+Putting task artifact state for task ':compileJava' into context took 0.121 secs.
+Task :compileJava class loader hash: ac08a4e08b0ff990510d13105b85ea38
+Task :compileJava actions class loader hash: 1526b3b109d06b230b32697697c7e0ca
+Creating new cache for metadata-2.23/module-metadata, path C:\Users\Aino\.gradle\caches\modules-2\metadata-2.23\module-metadata.bin, access org.gradle.cache.internal.DefaultCacheAccess@419dbb62
+Creating new cache for metadata-2.23/artifact-at-repository, path C:\Users\Aino\.gradle\caches\modules-2\metadata-2.23\artifact-at-repository.bin, access org.gradle.cache.internal.DefaultCacheAccess@419dbb62
+Skipping task ':compileJava' as it is up-to-date (took 0.817 secs).
+:compileJava UP-TO-DATE
+:compileJava (Thread[Daemon worker Thread 6,5,main]) completed. Took 0.95 secs.
+:processResources (Thread[Daemon worker Thread 6,5,main]) started.
+:processResources
+Putting task artifact state for task ':processResources' into context took 0.007 secs.
+file or directory 'C:\Users\Aino\Documents\NetBeansProjects\Kavamo\src\main\resources', not found
+Skipping task ':processResources' as it has no source files and no previous output files.
+:processResources NO-SOURCE
+:processResources (Thread[Daemon worker Thread 6,5,main]) completed. Took 0.019 secs.
+:classes (Thread[Daemon worker Thread 6,5,main]) started.
+:classes
+Skipping task ':classes' as it has no actions.
+:classes UP-TO-DATE
+:classes (Thread[Daemon worker Thread 6,5,main]) completed. Took 0.003 secs.
+:run (Thread[Daemon worker Thread 6,5,main]) started.
+:run
+Putting task artifact state for task ':run' into context took 0.0 secs.
+Executing task ':run' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Starting process 'command 'C:\Program Files\Java\jdk1.8.0_161\bin\java.exe''. Working directory: C:\Users\Aino\Documents\NetBeansProjects\Kavamo Command: C:\Program Files\Java\jdk1.8.0_161\bin\java.exe -Dfile.encoding=windows-1252 -Duser.country=FI -Duser.language=fi -Duser.variant -cp C:\Users\Aino\Documents\NetBeansProjects\Kavamo\build\classes\main;C:\Users\Aino\Documents\NetBeansProjects\Kavamo\build\resources\main;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\20.0\89507701249388e1ed5ddcf8c41f4ce1be7831ef\guava-20.0.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\org.hibernate\hibernate-core\5.2.16.Final\c169565556721e21e9bdc193a3e8e25160a45468\hibernate-core-5.2.16.Final.jar;C:\Users\Aino\.m2\repository\org\xerial\sqlite-jdbc\3.21.0.1\sqlite-jdbc-3.21.0.1.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\org.jboss.logging\jboss-logging\3.3.1.Final\c46217ab74b532568c0ed31dc599db3048bd1b67\jboss-logging-3.3.1.Final.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\org.hibernate.javax.persistence\hibernate-jpa-2.1-api\1.0.0.Final\5e731d961297e5a07290bfaf3db1fbc8bbbf405a\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\org.javassist\javassist\3.22.0-GA\3e83394258ae2089be7219b971ec21a8288528ad\javassist-3.22.0-GA.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\antlr\antlr\2.7.7\83cd2cd674a217ade95a4bb83a8a14f351f48bd0\antlr-2.7.7.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\org.jboss.spec.javax.transaction\jboss-transaction-api_1.2_spec\1.0.1.Final\4441f144a2a1f46ed48fcc6b476a4b6295e6d524\jboss-transaction-api_1.2_spec-1.0.1.Final.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\org.jboss\jandex\2.0.3.Final\bfc4d6257dbff7a33a357f0de116be6ff951d849\jandex-2.0.3.Final.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\com.fasterxml\classmate\1.3.0\183407ff982e9375f1a1c4a51ed0a9307c598fc7\classmate-1.3.0.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\dom4j\dom4j\1.6.1\5d3ccc056b6f056dbf0dddfdf43894b9065a8f94\dom4j-1.6.1.jar;C:\Users\Aino\.gradle\caches\modules-2\files-2.1\org.hibernate.common\hibernate-commons-annotations\5.0.1.Final\71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879\hibernate-commons-annotations-5.0.1.Final.jar mytips.Main
+Successfully started process 'command 'C:\Program Files\Java\jdk1.8.0_161\bin\java.exe''
+Database syntyy nyt t+ñ+ñll+ñ
+> Building 75% > :run
+Tervetuloa lukuvinkkisovellukseen!
+
+Total time: 1 mins 33.835 secs
+Stopped 0 worker daemon(s).
+Received result Success[value=null] from daemon DaemonInfo{pid=14928, address=[e2a0ab56-c482-49b2-9e20-9e8307789894 port:52740, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], state=Idle, lastBusy=1543594302509, context=DefaultDaemonContext[uid=0a35ac23-8cdf-4fe8-a493-b1d2a73723c6,javaHome=C:\Program Files\Java\jdk1.8.0_161,daemonRegistryDir=C:\Users\Aino\.gradle\daemon,pid=14928,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=windows-1252,-Duser.country=FI,-Duser.language=fi,-Duser.variant]} (build should be done).
