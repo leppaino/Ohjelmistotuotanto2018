@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 package ohtu;
 
@@ -10,6 +11,14 @@ public class TennisGame {
     
     private int player1_score = 0;
     private int player2_score = 0;
+=======
+package ohtu;
+
+public class TennisGame {
+    
+    private int m_score1 = 0;
+    private int m_score2 = 0;
+>>>>>>> 774d9c773f3de5e3119bc23c50590ff1aacc314d
     private String player1Name;
     private String player2Name;
 
@@ -20,16 +29,29 @@ public class TennisGame {
 
     public void wonPoint(String playerName) {
         if (playerName == "player1")
+<<<<<<< HEAD
             player1_score += POINT;
         else
             player2_score += POINT;
+=======
+            m_score1 += 1;
+        else
+            m_score2 += 1;
+>>>>>>> 774d9c773f3de5e3119bc23c50590ff1aacc314d
     }
 
     public String getScore() {
         String score = "";
+<<<<<<< HEAD
         if (player1_score==player2_score)
         {
             switch (player1_score)
+=======
+        int tempScore=0;
+        if (m_score1==m_score2)
+        {
+            switch (m_score1)
+>>>>>>> 774d9c773f3de5e3119bc23c50590ff1aacc314d
             {
                 case 0:
                         score = "Love-All";
@@ -49,6 +71,7 @@ public class TennisGame {
                 
             }
         }
+<<<<<<< HEAD
         else if (player1_score>=POINTLIMIT || player2_score>=POINTLIMIT){
             score = calculateAdvantageOrWin();
         }
@@ -88,6 +111,37 @@ public class TennisGame {
                 case 3:
                     score+="Forty";
                     break;
+=======
+        else if (m_score1>=4 || m_score2>=4)
+        {
+            int minusResult = m_score1-m_score2;
+            if (minusResult==1) score ="Advantage player1";
+            else if (minusResult ==-1) score ="Advantage player2";
+            else if (minusResult>=2) score = "Win for player1";
+            else score ="Win for player2";
+        }
+        else
+        {
+            for (int i=1; i<3; i++)
+            {
+                if (i==1) tempScore = m_score1;
+                else { score+="-"; tempScore = m_score2;}
+                switch(tempScore)
+                {
+                    case 0:
+                        score+="Love";
+                        break;
+                    case 1:
+                        score+="Fifteen";
+                        break;
+                    case 2:
+                        score+="Thirty";
+                        break;
+                    case 3:
+                        score+="Forty";
+                        break;
+                }
+>>>>>>> 774d9c773f3de5e3119bc23c50590ff1aacc314d
             }
         }
         return score;

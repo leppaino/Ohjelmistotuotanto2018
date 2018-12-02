@@ -34,7 +34,10 @@ public class Sovellus {
     private static void lisaa() {
         int lisLuku;
         IntJoukko joukko;
+<<<<<<< HEAD
         System.out.print("Lisataan ");
+=======
+>>>>>>> 774d9c773f3de5e3119bc23c50590ff1aacc314d
         Scanner lukija = new Scanner(System.in);
         System.out.print("Mihin joukkoon? ");
         joukko = mikaJoukko();
