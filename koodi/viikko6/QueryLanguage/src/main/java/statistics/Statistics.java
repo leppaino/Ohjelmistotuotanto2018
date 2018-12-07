@@ -60,4 +60,8 @@ public class Statistics {
         
         return matches;
     }
+    public List<Player> allPlayers() {
+        return players;        
+    }
+    
 }
